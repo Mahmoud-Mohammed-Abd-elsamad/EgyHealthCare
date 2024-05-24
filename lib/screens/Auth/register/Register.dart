@@ -4,13 +4,12 @@ import 'package:egyhealthcare/screens/user/walkthrow/walkThrow.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-
 import '../../../Widgets/componnents/customButton.dart';
-import '../../../Widgets/customTextfield.dart';
 import '../../../Widgets/componnents/constants.dart';
 import '../../../network/local/cache_helper.dart';
 import 'cubit/cubit.dart';
 import 'cubit/states.dart';
+
 
 class RegisterPage extends StatelessWidget {
   var fixedHieght;
@@ -129,7 +128,7 @@ class RegisterPage extends StatelessWidget {
                       padding: EdgeInsets.symmetric(
                           horizontal: fixedWidth * 10 / fixedWidth),
                       child: Container(
-                        height: fixedHieght * 455 / fixedHieght,
+                        height: fixedHieght * 600 / fixedHieght, //455
                         child: Center(
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
